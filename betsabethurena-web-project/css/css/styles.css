@@ -1,0 +1,73 @@
+.logo{
+	width: 300px;
+	float: right;
+	margin: 20px
+}
+.cover{
+	width: 350px;
+	float: left;
+	margin: 20px;
+}
+.angel{
+width: 450px;
+	float: right;
+	margin: 40px;
+}
+
+
+body{
+	background-color: black;
+	color: white;
+	font-family: "Georgia";
+	font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+h2{
+font-size: 30px;
+	margin-left: 3%;
+margin-right: 3%;
+}
+p{
+margin-left: 3%;
+margin-right: 3%;
+}
+
+
+ul, ol{
+	margin-left: 5%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+
+a{
+	color: silver;
+}
+a:visited{
+	color: gold;
+}
+a:active{
+	color: grey;
+}
+table{
+	width: 100%;
+	border: 1px solid silver;
+	border-collapse: collapse;
+	padding: 10px;
+}
+th, td{
+	padding: 10px;
+	border: 1px solid silver;
+}
+#name{
+	color: grey;
+	font-family: "Arial";
+	font-size: 12px; 
+}
+.home{
+	text-align: center;
+	font-size: small;
+}

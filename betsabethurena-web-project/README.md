@@ -10,3 +10,4 @@ While creating this page, I learned how to structure a webpage using basic HTML 
 
 ### Challenges
 One challenge I faced was working without CSS, which made it harder to control spacing and layout. I also had some issues with file paths when linking pages in different folders, and with changes not appearing due to not saving or browser caching.
+
