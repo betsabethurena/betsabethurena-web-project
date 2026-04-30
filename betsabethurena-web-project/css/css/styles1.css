@@ -1,0 +1,135 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: "Arial";
+	font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: gold;
+}
+h2{
+font-size: 30px;
+	text-align: center
+}
+h3{
+font-size: 25px;
+	margin-left: 3%;
+margin-right: 3%;
+}
+
+
+p{
+margin-left: 3%;
+margin-right: 3%;
+}
+
+
+ul, ol{
+	margin-left: 5%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+
+a{
+	color: cyan;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	color: lime;
+}
+table{
+	width: 100%;
+	border: 1px solid silver;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 10px;
+	border: 1px solid silver;
+}
+#characters{
+	background-color: blue;
+	text-align: center;
+}
+
+
+#name{
+	color: grey;
+	font-family: "Arial";
+font-size: 12px; 
+}
+.hidden {
+  display: none;
+}
+.character-section {
+  margin-bottom: 30px;
+}
+
+
+.char-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+
+.char-img {
+  width: 180px;
+  cursor: pointer;
+}
+form {
+  margin-top: 20px;
+}
+
+
+input {
+  padding: 5px;
+}
+
+
+button {
+  background-color: blue;
+  color: white;
+  border: 1px solid gold;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
+@media (max-width: 768px) {
+
+
+  .char-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .char-img {
+    width: 120px;
+  }
+
+
+  .char-info {
+    max-width: 90%;
+  }
+
+
+  button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+img:not(.char-img) {
+  margin: 15px;
+  display: block;
+}
